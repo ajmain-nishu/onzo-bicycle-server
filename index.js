@@ -155,10 +155,10 @@ run().catch(console.dir);
 
 // default 
 app.get('/', (req, res) => {
-    res.send('Smart Eye Glassed');
+    res.send('ONZO BiCycle');
 })
 
 //port
 app.listen(port, () => {
-    console.log('glassed server running', port)
+    console.log('bicycle server running', port)
 })
